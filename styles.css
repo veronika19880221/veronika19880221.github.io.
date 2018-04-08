@@ -1,0 +1,158 @@
+.my-text {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .my-text {
+    font-size: 52px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 52px;
+  text-align: center;
+  font-family: "unna";
+  font-style: italic;
+  font-weight: 200;
+  position: absolute;
+  /* top: 50%; */
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+a {
+  color: #0082F0;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: unna;
+}
+
+a:link {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.topimage {
+  height: 460px;
+  /* display: block; */
+  /* position: relative;
+  text-align: center; */
+}
+
+.outer_container {
+/*flexbox*/
+ display: flex;
+ align-items: top;
+ justify-content: left;
+ flex-direction: row;
+
+
+/*styling*/
+ background: #ffffff;
+}
+
+img {
+height:550px;
+width: auto;
+background: #ffffff;
+}
+
+.text-box {
+ width: 550px;
+ margin: 30px;
+ text-align: left;
+ background: #ffffff;
+}
+
+h2 {
+  color: #181818;
+  background-color :#ffffff;
+  font-size: 36px;
+  text-align: left;
+  font-family: "unna";
+  font-style: italic;
+  font-weight: 200;
+  margin-left: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #181818;
+  background-color :#ffffff;
+  font-size: 20px;
+  line-height: normal;
+  text-align: left;
+  font-family: "unna";
+  font-style: regular;
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+
+h3 {
+  color: #181818;
+  background-color :#ffffff;
+  font-size: 52px;
+  text-align: center;
+  font-family: "unna";
+  font-style: italic;
+  font-weight: 200;
+  }
+
+.size1 {
+  max-width: 400px;
+  height: auto;
+  padding: 10px;
+  }
+
+  .imagerow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .outer_container2 {
+  /*flexbox*/
+   display: flex;
+   align-items: top;
+   flex-direction: row;
+   margin-left: 30px;
+   }
+
+   .size2 {
+     max-width: 70px;
+     height: auto;
+     padding: 50px;
+     }
+
+      /* {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 30px;
+     } */
+
+     .iconrow {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
